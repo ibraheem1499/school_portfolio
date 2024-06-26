@@ -1,0 +1,75 @@
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+
+#navbar .logo {
+  float: none;
+  text-align: center;
+}
+
+#navbar h1 {
+  float: none;
+  text-align: center;
+}
+
+#navbar ul {
+  float: none;
+  text-align: center;
+  flex: 1;
+}
+
+#navbar ul li {
+  float: none;
+  text-align: center;
+  flex: 1;
+  border: 1px dotted var(--hover-color);
+  border-radius: 5px;
+}
+
+.minister {
+  display: none;
+}
+
+.side {
+  margin-bottom: 3rem;
+}
+
+.last-main-part {
+  display: flex;
+  flex-direction: column;
+}
+
+.tourism {
+  border: 1px solid var(--hover-color);
+}
+
+
+/* about */
+#about-main {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.about-info-image {
+  height: 50%;
+}
+
+#popular .president {
+  height: 100%;
+  margin: 1rem 1rem;
+}
+
+/* contact */
+
+#last-cont-part {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#last-cont-part .content {
+  border: #fff 1px dotted;
+}

@@ -1,0 +1,301 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* utilities */
+:root {
+  --primary-color: #0a4f2b;
+  --hover-color: #074424; 
+}
+
+.main-color {
+  color: var(--primary-color);
+}
+
+.background-color {
+  background: var(--primary-color);
+}
+
+.btn {
+  background: var(--primary-color);
+  margin: 1rem;
+  padding: 1rem;
+  font-size: 1.1rem;
+}
+
+.btn:hover{
+  background: var(--hover-color);
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  padding-bottom: 20px;
+}
+
+span {
+  color: var(--primary-color);
+}
+
+.centering {
+  padding: 1.3rem;
+}
+
+p {
+  margin: 10px 0;
+}
+
+.nav-container {
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+#navbar {
+  background: #0a4f2b;
+  color: #fff;
+  overflow: auto;
+}
+
+#navbar a {
+  color: #fff;
+}
+
+#navbar h1 {
+  float: left;
+  padding-top: 20px;
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  text-align: center;
+  padding: 20px;
+}
+
+
+#navbar ul li a:hover {
+  background: #074424;
+}
+
+.first-section {
+  background: url(../img/pexels-pixabay-258154.jpg) center center/cover;
+  height: 70vh;
+  text-align: center;
+  align-content: center;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.first-section h2 {
+  font-size: 3rem;
+}
+
+.first-section a {
+  color: #fff;
+}
+
+.mid-display {
+  display: flex;
+  flex-direction: row;
+}
+
+.show {
+  flex: 1;
+}
+
+.minister {
+  height: 50vh;
+  background: url('../img/pexels-daniel-xavier-1239291.jpg')center center/cover no-repeat;
+}
+
+.side {
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  margin: 1rem;
+  color: var(--hover-color);
+  font-size: 1.5rem;
+}
+
+.side a {
+  padding: 1.1rem;
+  margin-top: 1.3rem;
+}
+
+.minister {
+  text-align: center;
+  align-content: flex-end;
+  font-size: 1.2rem;
+  font-weight: 1000;
+  color: #fff;
+}
+
+.last-main-part {
+  display: flex;
+  padding: 1.2rem;
+  text-align: center;
+}
+
+.last-main-part div {
+  padding: 1.5rem;
+  height: 270px;
+  align-content: center;
+  font-size: 1.1rem;
+}
+
+.last-main-part h3 {
+  text-align: center;
+  align-content: center;
+}
+
+.security {
+  color: #fff;
+}
+
+.accommodation {
+  border: 1px solid var(--hover-color);
+}
+
+footer {
+  background: var(--primary-color);
+  text-align: center;
+  align-content: center;
+  padding: 1.5rem;
+}
+
+/* about page */
+#about-main {
+  background: #c3e8ca;
+  color: var(--primary-color);
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  height: 45vh;
+  padding: 2rem;
+}
+
+#about-main .about-info-image {
+  /* background: url('../img/pexels-amar-saleem-70441.jpg') center center/cover no-repeat; */
+  flex:1;
+  margin: 1.8rem;
+  padding: 1.1rem;
+  flex-basis: 40%;
+  border-radius: 50%;
+}
+
+#about-main .about-info-image img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+#about-main .about-info-image p {
+  display: none;
+}
+
+#about-main .text-info {
+  flex-basis: 60%;
+}
+
+#popular {
+  background: url('../img/pexels-stephan-seeber-1261728.jpg')center center/cover no-repeat;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#popular h1 {
+  font-size: 3rem;
+  text-align: center;
+  align-items: center;
+  color: #fff;
+  padding-top: 1.2rem;
+}
+
+#popular .president {
+  background: #c3e8ca;
+  margin: 4rem 7rem;
+  flex: 1;
+  display: flex;
+  height: 170px;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  opacity: 0.8;
+}
+
+#popular .president p {
+  margin: 2rem;
+}
+
+#popular .president img {
+  height: 155px;
+  border-radius: 50%;
+  margin: 2rem;
+}
+
+#contact-us {
+  font-size: 1.5rem;
+  padding: 1.3rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-fill {
+  font-size: 1.2rem;
+  padding: 1.1rem;
+  flex-basis: 5rem;
+}
+
+.form-fill input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 1.7rem;
+  margin-top: 1.2rem;
+}
+
+.form-fill input:focus {
+  color: #0a4f2b;
+}
+
+.text input {
+  height: 10rem;
+}
+
+#last-cont-part {
+  background: var(--primary-color);
+  color: #fff;
+  display: flex;
+  text-align: center;
+}
+
+#last-cont-part h3 {
+  font-size: 1.5rem;
+}
+
+#last-cont-part .content {
+  flex: 1;
+  margin: 1.6rem;
+  padding: 1.2rem;
+  border: #fff 1px dotted;
+}
